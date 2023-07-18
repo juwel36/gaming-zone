@@ -1,0 +1,507 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+height: 95px;
+}
+nav{
+display: flex;
+justify-content: space-between;
+height: 90px;
+align-items: center;
+max-width: 1140px;
+margin: 0 auto;
+
+}
+.navigation-option{
+
+
+}
+.navigation-option ul{
+display: flex;
+list-style: none;
+
+}
+.navigation-option a{
+text-decoration: none;
+margin-left: 40px;
+color: #3C354F;
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.navigation-logo{
+display: flex;
+gap: 10px;
+}
+.navigation-logo h1{
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+color: black;
+}
+.logo{
+
+width: 81.041px;
+height: 38px;
+
+}
+.gamer-g{
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.media-icon{
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+padding:5px 14px 5px 14px;
+}
+
+/* nav section end */
+main{
+max-width: 1140px;
+margin: 0 auto;
+
+}
+
+.banner{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: 1px solid red;
+background-color: #8C57EE0D, #F144AE0D;
+}
+
+.banner-text h3{
+  color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.banner-text h1{
+  text-align: center;
+font-family: Work Sans;
+font-size: 69px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.banner-text p{
+  color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: lowercase;
+text-align: left;
+}
+.signup-btn{
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  color: #FFF;
+  font-family: Work Sans;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 30px;
+  padding: 9px 14px;
+}
+.go-rogue-btn{
+  color: #FFF;
+font-family: Work Sans;
+font-size: 15px;
+text-transform: uppercase;
+border-radius: 48px;
+background: #4EC5F7;
+border: none;
+margin-top: 30px;
+padding: 9px 14px;
+}
+
+.banner1st-img{
+width: 70%;
+margin-left: 272px;
+}
+
+
+
+.facilites-container{
+  border: 1px solid green;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  }
+  
+  .first-img img{
+   width: 70%;
+    
+  }
+  .facilities-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .facility-description {
+    width: 50%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: right;
+    padding-right: 60px;
+  }
+  
+  .facility-picture {
+    width: 50%;
+
+  }
+  .first-img img{
+    width: 80%;
+    margin-left: 115px;
+  }
+  .second-image{
+position: relative;
+
+  }
+  .second-image img{
+    width: 50%;
+position: absolute;
+top:-190px
+
+  }
+.play-instant{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.facility-description h1{
+  color: #0B0223;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+}
+
+
+
+/* footer section */
+
+.footer-section{
+margin-top: 300px;
+padding-top: 40px;
+height: 400px;
+background: #0B0223;
+text-align: center;
+
+
+}
+.footer-details{
+  color: #FFF;
+  font-family: Work Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+display: flex;
+justify-content: center;
+gap: 45px;
+padding: 34px;
+}
+
+.footer-security{
+  color: rgba(255, 255, 255, 0.60);
+
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+gap: 40px;
+font-size: 40px;
+padding-bottom: 34px;
+}
+.footer-security{
+display: flex;
+justify-content: center;
+gap:50px;
+color: rgba(255, 255, 255, 0.60);
+}
+.copyright{
+  color: rgba(255, 255, 255, 0.60);
+padding-top: 40px;
+}
+.footer-logo h1{
+color: white;
+}
+.footer-logo{
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive section */
+
+@media screen and (max-width:576px){
+  header{
+    height: 0;
+  }
+  nav{
+flex-direction: column;
+margin-top:60px ;
+height: 0;
+
+  }
+  .navigation-option ul{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap:30px;
+margin-top: 40px;
+
+  }
+  .logo{
+    width: 51.041px;
+    }
+
+    .navigation-logo h1{
+      font-size: 30px;
+  
+    }
+.banner{
+flex-direction:column;
+flex-direction: column-reverse;
+margin-top: 240px;
+
+}
+
+.banner1st-img{
+  width: 70%;
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  }
+  .banner-text h1{
+font-size: 47px;
+  }
+.banner-text h3{
+font-size: 20px;
+}
+.banner-text p{
+padding-top: 10px;
+}
+/* banner section end */
+.facilites-container {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.first-img img {
+  width: 100%;
+}
+
+.facilities-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.facility-description {
+  width: 100%;
+  text-align: center;
+  padding-right: 0;
+}
+
+.facility-picture {
+  width: 100%;
+}
+
+.first-img img {
+  width: 65%;
+  display: block;
+  margin: 0 100px;
+}
+
+.second-image {
+  position: relative;
+}
+
+.second-image img {
+  width: 34%;
+  position:absolute;
+  margin-left: 33px;
+  top:-120px;
+}
+
+
+.facility-description h1 {
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+.facility-description p{
+
+  font-size: 10px;
+  padding-bottom: 50px;
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tablet responsibe section */
+
+
+@media screen and (min-width:577px)and (max-width:960px){
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+

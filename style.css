@@ -561,7 +561,6 @@ padding-top: 10px;
 }
 /* banner section end */
 .facilites-container {
-  border: 1px solid green;
   display: flex;
   flex-direction: column;
   margin-top: 100px;

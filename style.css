@@ -18,8 +18,6 @@ margin: 0 auto;
 
 }
 .navigation-option{
-
-
 }
 .navigation-option ul{
 display: flex;
@@ -71,17 +69,21 @@ padding:5px 14px 5px 14px;
 }
 
 /* nav section end */
+
+
+
 main{
 max-width: 1140px;
 margin: 0 auto;
 
 }
 
+/* banner section */
+
 .banner{
 display: flex;
 justify-content: space-between;
 align-items: center;
-border: 1px solid red;
 background-color: #8C57EE0D, #F144AE0D;
 }
 .banner-text h3{
@@ -149,7 +151,7 @@ margin-left: 272px;
 
 
 .facilites-container{
-  border: 1px solid green;
+ 
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
@@ -209,7 +211,7 @@ font-weight: 700;
 line-height: 60px;
 }
 
-/*  */
+/* card section */
 
 .card p{
   color: #534C64;
@@ -344,61 +346,51 @@ line-height: 60px;
 
 
 
+/* games-quantity-sec */
 
+.games-quantity-sec{
+display: flex;
+flex-wrap: wrap;
+gap: 40px;
+justify-content: center;
+align-items: center;
+margin-top: 100px;
+height: 300px;
 
+}
+.Game{
+display: flex;
+border-radius: 50px;
+background: #FFF;
+width: 196px;
+height: 50px;
+align-items: center;
+text-align:center;
+background: white;
+box-sizing: border-box;
+transition: all 0.3s ease;
+justify-content: space-evenly;
+border: 2px solid transparent;
+}
+.Game:hover{
+  border-color: #FF42A5;
+padding: 29px 0;
+color: red;
+}
+.music-text{
+font-size: 12px;
 
+}
+.Game p{
+color: #0B0223;
+font-family: Work Sans;
+font-size: 14px;
+padding-right:15px;
+}
+.Game p:hover{
+  color: #FF42A5;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -407,7 +399,7 @@ line-height: 60px;
 /* footer section */
 
 .footer-section{
-margin-top: 300px;
+margin-top: 80px;
 padding-top: 40px;
 height: 400px;
 background: #0B0223;
@@ -514,6 +506,9 @@ color: white;
 
 /* mobile responsive section */
 
+
+
+
 @media screen and (max-width:576px){
   header{
     height: 0;
@@ -530,6 +525,7 @@ justify-content: center;
 align-items: center;
 gap:30px;
 margin-top: 40px;
+padding-right: 40px;
 
   }
   .logo{
@@ -704,10 +700,29 @@ padding-top: 80px;
   font-size: 9px;
   
 }
+.Game{
+  width: 126px;
+  height: 20px;
+  justify-content: space-evenly;
+  margin-top: 0px;
+  }
+  .Game:hover{
+    border-color: #FF42A5;
+  padding: 13px 0;
+  color: red;
+  }
+  .Game p{
+  font-size: 9px;
+  padding-right:0px;
+  }
+.Game img{
+width: 30px;
 
-
-
-
+}
+.games-quantity-sec{
+  gap: 0px;
+  margin-top: 40px;
+  }
 
 
 
